@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+<div class="main">
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+    <div class="form">
+        <form method="post" action="index.html">
+            <table>
+                <tbody>
+                <tr>
+                    <td>Họ và tên</td>
+                    <td>
+                        <input type="text" name="name" class="textbox1"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh</td>
+                    <td>
+                        <input type="text" name="birthday" class="textbox3"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <label><input type="radio" name="male"/>Nam</label>
+                        <label><input type="radio" name="female"/>Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td>
+                        <textarea name="address" class="textbox2""></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Lớp</td>
+                    <td>
+                        <select name="class" class="select">
+                            <option value="" selected disabled hidden>-Chọn lớp-</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Jave">Java</option>
+                            <option value=".Net">.Net</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="text" name="email" class="textbox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td>
+                        <input type="text" name="tel" class="textbox"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" value="Đăng ký" name="register" class="button"/>
+                        <input type="button" value="Nhập lại" name="reset" class="button"/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
